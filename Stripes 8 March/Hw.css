@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /*min-height: 100vh;*/
+}
+
+.items {
+    font-size: 23px;
+    padding: 15px 15px;
+    cursor: pointer;
+    position: relative;
+    background-color: yellow;
+}
+
+.items::first-letter {
+    color: crimson;
+}
+
+.rectangles {
+    height: 10px;
+    width: 20px;
+    background-color: crimson;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition-property: width;
+    transition-duration: .5s;
+}
+
+.items:hover .rectangles {
+    width: 100%;
+}
+
+/*класс item следует за классом box, поэтому используется знак "~".*/
+/*.box:hover ~ .item {}*/
+/*box - родительский класс, sub - вложенный класс*/
+/*.box:hover .sub {}*/
+
+
+
+
