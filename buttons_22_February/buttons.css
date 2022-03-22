@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid orange;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+.button-1 {
+    margin: 0 auto;
+    font-size: 45px;
+    text-decoration: none;
+    color: orange;
+    padding: 55px 85px 55px 45px;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.button-1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.line {
+    height: 162px;
+    width: 10px;
+    background-color: orange;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.circle-1 {
+    height: 140px;
+    width: 140px;
+    background: white;
+    border: 10px solid orange;
+    border-radius: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-2 {
+    height: 80px;
+    width: 80px;
+    border: 10px solid orange;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-3 {
+    height: 15px;
+    width: 15px;
+    border: 10px solid orange;
+    border-radius: 15px;
+}
+
+.button-2 {
+    margin: 0 auto;
+    font-size: 45px;
+    text-decoration: none;
+    color: orange;
+    padding: 55px 45px 55px 85px;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.button-2:hover {
+    background-color: orange;
+    color: white;
+}
